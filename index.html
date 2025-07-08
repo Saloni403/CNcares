@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- slick  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="web/css/style.css">
+</head>
+
+<body>
+    <!-- top nav bar -->
+    <section class=" topnav py-3 d-lg-block d-none">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-5">
+                    <div class="d-flex align-items-center ">
+                        <p class="borderright pe-3"><i class="fa-solid fa-location-dot"></i> Noida Sector-18</p>
+                        <p class="ps-3 borderleft">F12 First Floor Savitri Market</p>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <p class="pe-3 borderright"><i class="fa-solid fa-envelope"></i> pwnitin7@gmail.com</p>
+                        <p class="ps-3 borderleft"><i class="fa-solid fa-phone"></i> +91-9711267773</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- nav bar -->
+    <section class="mainnavbar py-3">
+        <div class="container">
+            <div class="row d-flex align-items-center  justify-content-between">
+                <div class="col-md-2 col-4">
+                    <img src="web/images/Cars-logo.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-8 d-lg-block d-none">
+                    <ul class="d-flex align-items-center justify-content-evenly">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get Quote</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-6 text-end ">
+                    <i class="menubar fa-solid fa-bars-staggered me-3  d-lg-none" style="color: #fff;"></i>
+                    <a href="" class="btn btn-warning text-white">Contact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu d-lg-none">
+        <div>
+            <i class="fa-solid fa-xmark closing"></i>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Get Quote</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- slider -->
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="slider1 ps-md-3 ">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6 d-flex align-items-center">
+                                <div class="textbody text-center">
+                                    <p class="heading3 mb-0">Fast & Efficient</p>
+                                    <p class="heading1 mb-0">Apple Repairs</p>
+                                    <p class="heading2">Low Cost Affordable</p>
+                                    <a href="" class="btn btn-warning text-white">Contact</a>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="svgimg1">
+                                    <img src="web/images/s1.jpg" class="img-fluid" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slider2 ps-md-3 ">
+                    <div class="container-fluid">
+                        <div class="row"
+                            style="background-image: url(web/images/s1.jpg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+                            <div class="col-6 d-flex align-items-center justify-content-center "
+                                style="background-image: url(web/images/sliderbanner.avif); border-radius:0 200px 200px 0; border-right: 10px solid orange;">
+                                <div class="textbody  ">
+
+                                    <p class="heading1 mb-0">iphone</p>
+                                    <p class="heading2">Doorstep Solution</p>
+                                    <a href="" class="btn btn-warning text-white">Contact</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- get known us -->
+    <section class="gku my-5">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-lg-6 d-flex align-items-end justify-content-center">
+                    <img src="web/images/GKU1.jpg" class="w-50  p-2" alt="">
+                    <div>
+                        <!-- <p class="bg-dark p-2 text-white mb-0">Get assured with our service</p> -->
+                        <img src="web/images/GKU2.jpg" class="w-100 p-2" alt="">
+                        <img src="web/images/GKU2.jpg" class="w-100 p-2" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-3 text-lg-start text-center">
+                    <div>
+                        <h5>Get Known Us</h5>
+                        <h1>iPhone repair service in Noida Sector-18</h1>
+                    </div>
+                    <div class="">
+                        <p class="gkuparaheading">Get the Best iPhone Repair Service in Noida at CN Cares!</p>
+                        <p class="gkupara">Looking for a reliable iPhone repair service in Noida? CN Cares is your
+                            trusted
+                            destination for all iPhone-related issues. From cracked screens and battery replacements to
+                            software problems and water damage repairs – our expert technicians handle it all with
+                            precision and care.</p>
+                        <p class="gkupara">We use 100% genuine Apple parts, offer affordable pricing, and ensure a
+                            quick, hassle-free
+                            repair process. Customer satisfaction is our priority, making CN Cares the top choice for
+                            iPhone repair service in Noida.</p>
+                    </div>
+                    <a href="" class="btn btn-warning text-white">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- we offer -->
+    <section class="woffer my-5">
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-12 text-center ">
+                    <h1>Our Extreme Solutions That We Offer</h1>
+                    <p style="font-weight: 600;">Our Smart Experts Serve you any time. Book an Appointment Now!</p>
+                </div>
+                <div class="col-md col-6">
+                    <div class="py-3" style="">
+                        <img src="web/images/weoffer1.png" class="w-50" alt="">
+                        <p>iphone</p>
+                    </div>
+                </div>
+                <div class="col-md col-6">
+                    <div class="py-3" style="">
+                        <img src="web/images/weoffer2.png" class="w-50" alt="">
+                        <p>iphone</p>
+                    </div>
+                </div>
+                <div class="col-md col-6">
+                    <div class="py-3" style="">
+                        <img src="web/images/weoffer3.png" class="w-50" alt="">
+                        <p>iphone</p>
+                    </div>
+                </div>
+                <div class="col-md col-6">
+                    <div class="py-3" style="">
+                        <img src="web/images/weoffer4.png" class="w-50" alt="">
+                        <p>iphone</p>
+                    </div>
+                </div>
+                <div class="col-md col-6">
+                    <div class="py-3" style="">
+                        <img src="web/images/weoffer5.png" class="w-50" alt="">
+                        <p>iphone</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- get a quote now -->
+    <section class="gaqn py-5">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-12 text-center ">
+                    <h1>Get A Quote Now</h1>
+                    <p style="font-weight: 600;">Book Now & Get Solutions in 30 Minutes</p>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="w-100">
+                        <select class="w-100 p-2" name="brand" id=" sb">
+                            <option value="select brand*">select brand*</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="w-100">
+                        <select class="w-100 p-2" name="brand" id=" sb">
+                            <option value="select Model*">select Model*</option>
+                            <!-- <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option> -->
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="w-100">
+                        <select class="w-100 p-2" name="brand" id=" sb">
+                            <option value="select Fault*">select Fault*</option>
+                            <option value="Screen Fault">Screen Fault</option>
+                            <option value="Battery Fault">Battery Fault</option>
+                            <!-- <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option> -->
+                        </select>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="w-100">
+                        <select class="w-100 p-2" name="brand" id=" sb">
+                            <option value="select Screen Color*">select Screen Color*</option>
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <!-- <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option>
+                            <option value="Android">Android</option> -->
+                        </select>
+                    </div>
+                </div>
+                <a href="" class="btn btn-warning text-white w-25 mx-auto">Next</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- book your repair now -->
+    <section class="byrn my-5">
+        <div class="container">
+            <div class="row " id="row1">
+                <div class="col-md-4" onclick="showdes()">
+                    <p>Doorstep Solutions</p>
+                </div>
+                <div class="col-md-4" onclick="showdes()">
+                    <p>Pickup & Delivery</p>
+                </div>
+                <div class="col-md-4" onclick="showdes()">
+                    <p>Walk-In (Office Visit)</p>
+                </div>
+
+            </div>
+            <div class="row py-5 ps-lg-4 description">
+                <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                    <div>
+                        <h2>Hassle-Free Mobile Repairs at Your Doorstep!</h2>
+                        <p id="subh">Fast, Reliable & Affordable Solutions for All Smartphones & Laptops</p>
+                        <div class="d-flex align-items-center justify-content-start mb-3">
+                            <div class="">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <div class="d-flex align-items-start flex-column justify-content-center">
+                                <h5 id="h51">Book an Appointment</h5>
+                                <p class="mb-0 p1">Share your device issue & choose a convenient time.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-start mb-3">
+                            <div class="">
+                                <i class="fa-solid fa-screwdriver "></i>
+                            </div>
+                            <div class="d-flex align-items-start flex-column justify-content-center">
+                                <h5 id="h52">On-Site Repair</h5>
+                                <p class="mb-0 p2">Our expert technician arrives at your location & fixes your device.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-start mb-3">
+                            <div class="">
+                                <i class="fa-brands fa-paypal "></i>
+                            </div>
+                            <div class="d-flex align-items-start flex-column justify-content-center">
+                                <h5 id="h53">Secure Payment</h5>
+                                <p class="mb-0 p3">Pay after service via cash, card, or UPI.</p>
+                            </div>
+                        </div>
+                        <a href="" class="btn btn-warning text-white w-50">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0 text-center">
+                    <img src="web/images/GKU1.jpg" class="w-75"
+                        style="box-shadow: rgba(0, 0, 0, 1) 15px -15px 1.6px; border-radius: 10px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- how we work -->
+    <section class="hww">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 text-center ">
+                    <h1>How We Work?</h1>
+                    <p style="font-weight: 600;">Depending your situation we give you three options to choose for your
+                        smartphone, tablet or laptop solution.</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="cardbody">
+                        <div class="imgdiv">
+                            <img src="web/images/hww1.png" alt="">
+                        </div>
+                        <h3>Book a Service</h3>
+                        <p>Share your device issue, and we’ll arrange a pickup or doorstep repair. Our experts diagnose,
+                            fix, and return it safely, ensuring a hassle-free experience.</p>
+                        <a href="" class="btn btn-warning text-white w-50">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="cardbody">
+                        <div class="imgdiv">
+                            <img src="web/images/hww2.png" alt="">
+                        </div>
+                        <h3>Expert Repair</h3>
+                        <p>Our skilled technicians thoroughly diagnose your device, ensuring precise repairs using
+                            high-quality parts for durability, performance, and reliability.</p>
+                        <a href="" class="btn btn-warning text-white w-50">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="cardbody">
+                        <div class="imgdiv">
+                            <img src="web/images/hww3.png" alt="">
+                        </div>
+                        <h3>Quality Check</h3>
+                        <p>Your device undergoes thorough testing to ensure optimal performance before being safely
+                            delivered back to you in perfect working condition.</p>
+                        <a href="" class="btn btn-warning text-white w-50">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-center">
+                    <div class="cardbody">
+                        <div class="imgdiv">
+                            <img src="web/images/hww4.png" alt="">
+                        </div>
+                        <h3>Secure Payment</h3>
+                        <p>Make secure payments easily after your repair is completed. Pay via cash, card, or UPI for a
+                            seamless and hassle-free experience with CN Cares.</p>
+                        <a href="" class="btn btn-warning text-white w-50">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fast reliable -->
+    <section class="franda mt-5">
+        <div class="frandadiv">
+            <div>
+                <h1>Fast, Reliable & Affordable Repairs!</h1>
+                <p>Our technicians diagnose and fix your device quickly using high-quality parts.
+                    Convenient doorstep and pickup options available.</p>
+                <a href="" class="btn btn-warning text-white w-25 mx-auto">Contact</a>
+            </div>
+        </div>
+    </section>
+    <!-- low cost -->
+    <section class="lowcost py-5">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-md-6">
+                    <img src="web/images/LCM.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center mt-5 mt-md-0">
+                    <div>
+                        <h1>Low Cost Mobile & Tablet Solution</h1>
+                        <ul class="ms-4">
+                            <li>Mobile, Tablet, All-in-Ones!</li>
+                            <li>Doorstep Service</li>
+                            <li>Trained Professionals</li>
+                            <li>Upto 6 months warranty</li>
+                            <li>100% Genuine Parts</li>
+                        </ul>
+                        <a href="" class="btn btn-warning text-white mt-3">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- what our client says -->
+    <section class="my-5">
+        <div class="container">
+            <div class=" text-center ">
+                    <h1>What Our Client says?</h1>
+                    <p style="font-weight: 600;">We take pride in delivering top-quality repairs and exceptional
+                        customer service. Our clients
+                        trust us for fast, reliable,and hassle-free mobile and laptop repair solutions.</p>
+                </div>
+            <div class="row autoplay mt-5">
+                
+                <div class="col-3 px-3">
+                    <div class="card c1">
+                        <img src="web/images/wocs1.jpg" width="50px" height="50px" alt="">
+                        <h6>Sumit Pal</h6>
+                        <p>Exceptional Services!</p>
+                    </div>
+                </div>
+                <div class="col-3 px-3">
+                    <div class="card c2">
+                        <img src="web/images/wocs1.jpg" width="50px" height="50px" alt="">
+                        <h6>Rahul Mehta</h6>
+                        <p>Highly Recommended!</p>
+                    </div>
+                </div>
+                <div class="col-3 px-3">
+                    <div class="card c3">
+                        <img src="web/images/wocs1.jpg" width="50px" height="50px" alt="">
+                        <h6>Pinky Soni</h6>
+                        <p>Reliable & Affordable Services!</p>
+                    </div>
+                </div>
+                <div class="col-3 px-3">
+                    <div class="card c4">
+                        <img src="web/images/wocs1.jpg" width="50px" height="50px" alt="">
+                        <h6>Versha Tyagi</h6>
+                        <p>Good Services!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Connect with us -->
+    <section class="connectus py-5 ">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-md-6 d-flex align-items-center justify-content-center ">
+                    <div>
+                        <h1>Have a Questions? Let's Connect With Us</h1>
+                        <p>Need assistance with your device repair? Our team is here to help! Whether you have questions
+                            about our services, pricing, or repair process, feel free to reach out. We’re just a call or
+                            message away! 🚀</p>
+                        <a href="" class="btn btn-warning text-white mt-3">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center mt-md-0 mt-3">
+                    <img src="web/images/connectus.png" class="w-75" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+     <footer class="bg-dark text-white pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3  mb-3 mb-xl-0">
+                    <img src="web/images/Cars-logo.png" class="w-50" alt=""><br>
+                    <span>CN cares is your one-stop solution for mobile, laptop, and tablet repairs. We offer fast, reliable, and affordable services with pickup & doorstep repair options.</span>
+                </div>
+                <div class="col-xl-3 col-md-4 col-6">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Blogs</li>
+                    </ul>
+                </div>
+                 <div class="col-xl-3 col-md-4 col-6">
+                    <h3>More Info</h3>
+                    <ul>
+                        <li>Terms & conditions</li>
+                        <li>Reviews</li>
+                        <li>Privacy Policy</li>
+                        <li>Complaints</li>
+                    </ul>
+                </div>
+                 <div class="col-xl-3 col-md-4  mt-3 mt-md-0">
+                    <h3 class="">Contact Us</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> CN care’s F12 First Floor Savitri market Noida sector -18</li>
+                        <li><i class="fa-solid fa-envelope"></i> pwnitin7@gmail.com</li>
+                        <li><i class="fa-solid fa-phone"></i> +91-9711267773</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-5 py-3" style="background-color: #000;">
+            <a href="tssgtech.com" class="text-white"><p>Copyright © 2025 All Rights Reserved | Designed By TSSG-Tech</p></a>
+        </div>
+     </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="web/js/script.js"></script>
+    <!-- slick -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       <script type="text/javascript">
+        $('.autoplay').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+             responsive: [
+        {
+            breakpoint: 768, // screens less than or equal to 1024px
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+          breakpoint: 480, // screens less than or equal to 1024px
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }   
+        }
+    
+    ]
+        });
+    </script>
+</body>
+
+</html>
