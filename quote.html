@@ -223,8 +223,8 @@
     </section>
 
      <!-- Get the Best Smartphone Deals -->
-    <section class="franda mt-5" onclick="location.href='contact.html'">
-        <div class="frandadiv">
+    <section class="franda mt-5 overflow-hidden" onclick="location.href='contact.html'">
+        <div class="frandadiv"  data-aos="zoom-in">
             <div>
                 <h1>Get the Best Smartphone Deals</h1>
                 <p>Looking for the latest smartphones at the best prices? MobiHotspot.com brings you unbeatable offers on top brands
@@ -398,7 +398,7 @@ we provide competitive pricing and fast delivery.</p>
                     <span>CN cares is your one-stop solution for mobile, laptop, and tablet repairs. We offer fast,
                         reliable, and affordable services with pickup & doorstep repair options.</span>
                 </div>
-                <div class="col-xl-3 col-md-4 col-6">
+                <div class="col-xl-3 col-md-4 col-xs-6">
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="about.html">About Us</a></li>
@@ -406,13 +406,13 @@ we provide competitive pricing and fast delivery.</p>
                         <li><a href="blog.html">Blogs</a></li>
                     </ul>
                 </div>
-                <div class="col-xl-3 col-md-4 col-6">
+                <div class="col-xl-3 col-md-4 col-xs-6">
                     <h3>More Info</h3>
                     <ul>
                         <li><a href="tandc.html">Terms & conditions</a></li>
                         <li><a href="review.html">Reviews</a></li>
                         <li><a href="privacypolicy.html">Privacy Policy</a></li>
-                        <li><a href="complaint.html">Complaints</a></li>
+                      <li><p href="#" onclick="cdForm()">Complaints</p></li>
                     </ul>
                 </div>
                 <div class="col-xl-3 col-md-4  mt-3 mt-md-0">
@@ -434,7 +434,27 @@ we provide competitive pricing and fast delivery.</p>
             </a>
         </div>
     </footer>
-
+ <!-- complaint / feedback -->
+     <section class="CDiv "  >
+        <div class="Compdiv">
+            <div class="compinnerdiv">
+                <div class="text-end ">
+                <i class="fa-solid fa-xmark closeCDform "></i>
+                </div>
+                <h3>Feedback / Complaint</h3>
+                <p>Let Us Know Your Valuable Feedback / Complaint</p>
+                <form action="">
+                    <input type="text" placeholder="Name" name="" id="">
+                    <input type="email" placeholder="Email" name="" id="">
+                    <input type="tel" placeholder="Phone Number" name="" id="">
+                    <textarea name="" placeholder="Complaint / Comments" id=""></textarea>
+                    <div>
+                         <a href="contact.html" class="btn btn-warning text-white mt-3">Contact Us</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+     </section>
       <!-- aos animation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
         integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="

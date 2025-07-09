@@ -10,8 +10,14 @@ document.querySelector(".closing").addEventListener("click",function(){
     document.querySelector(".menu").style.right="-350px";
 })
 
-
-
+function cdForm(){
+document.querySelector(".CDiv").style.display="block"
+document.querySelector("body").classList.add("no-scroll")
+}
+document.querySelector(".closeCDform").addEventListener("click",()=>{
+    document.querySelector(".CDiv").style.display="none"
+    document.querySelector("body").classList.remove("no-scroll")
+})
 
 
 

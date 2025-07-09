@@ -96,12 +96,14 @@ z-index: 99;
 .menu li a {
     font-size: 1.4rem;
     color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 10px;
 }
 
 .menu li a:hover {
     font-size: 1.4rem;
     color: orange;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.673);
 
 }
 
@@ -533,7 +535,45 @@ footer .col-xl-3 {
     flex-direction: column;
     text-align: center;
 }
+/* complaint */
+.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+.CDiv{
+    display: none;
+}
+.Compdiv{
+    width: 100vw;
+    height: 100vh;
+     background-color: rgb(0, 0, 0, 0.5);
+     backdrop-filter: blur(10px);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #fff;
+ position: fixed;
+ top: 0;
+ box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.compinnerdiv{
+    height: fit-content;
+    width: 320px;
+    background-color: #000000;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+.compinnerdiv input, .compinnerdiv textarea{
+    box-shadow: none;
+    border:2px solid  #fff;
+    color: #fff;
+}
 
+.compinnerdiv input::placeholder, .compinnerdiv textarea::placeholder{
+    color: #fff;
+
+}
 
 
 
@@ -728,4 +768,88 @@ background-color: whitesmoke;
 }
 .faultcard img:hover{
     transform: scale(0.9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* blog */
+.cardd{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #00000020;
+}
+.cardd:hover{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     background-color: #00000016;
+}
+
+/* contact */
+.contactdiv{
+    background-image: url(../images/sliderbanner.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ContCard{
+    background-color: whitesmoke;
+    border:2px solid  #50505084;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 2rem;
+    height: 100%;
+    border-radius: 10px;
+}
+.ContCard:hover{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.CI i{
+    font-size: 2rem;
+   
+}
+.CI{
+    border: 2px solid #000000;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 1rem;
+   margin-bottom: 2rem;
+   background-color: #fff;
+}
+
+/* form */
+input, textarea , select{
+    border: none;
+    border-bottom: 2px solid orange;
+    width: 100%;
+    background-color: transparent;
+border-radius: 20px;
+padding: 1rem;
+margin-bottom: 1rem;
+ box-shadow: rgba(255, 165, 0, 0.35) 0px 5px 15px;
+}
+iframe{
+     box-shadow: rgba(255, 165, 0, 0.35) 0px 5px 15px;
+}
+.gaq {
+    background-image: url(../images/sliderbanner.avif);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
