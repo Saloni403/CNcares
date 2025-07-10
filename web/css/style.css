@@ -354,7 +354,7 @@ z-index: 99;
 
 /* fast reliable and affordable */
 .franda {
-    background-image: url(../images/s1.jpg);
+    background-image: url(../images/indeximg/GKU12.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -542,6 +542,7 @@ footer .col-xl-3 {
 }
 .CDiv{
     display: none;
+   
 }
 .Compdiv{
     width: 100vw;
@@ -550,6 +551,7 @@ footer .col-xl-3 {
      backdrop-filter: blur(10px);
      display: flex;
      align-items: center;
+     z-index: 9999;
      justify-content: center;
      color: #fff;
  position: fixed;
@@ -665,7 +667,7 @@ background-position: center;
 
 /* stay ahead */
 .stayahead {
-    background-image: url(../images/GKU2.jpg);
+    background-image: url(../images/indeximg/GKU12.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -792,6 +794,10 @@ background-color: whitesmoke;
 .cardd{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: #00000020;
+    border-radius: 10px;
+}
+.cardd img{
+    border-radius: 10px 10px 0 0;
 }
 .cardd:hover{
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
