@@ -46,8 +46,8 @@ z-index: 99;
 
 .mainnavbar ul li a:hover {
     padding-bottom: 5px;
-    border-bottom: 3px solid rgb(255, 165, 0);
-    color: rgb(255, 165, 0.5);
+    border-bottom: 3px solid #3295cd;
+    color: #3295cd;
 }
 
 .mainnavbar a {
@@ -57,9 +57,9 @@ z-index: 99;
 }
 
 .btn {
-    border-color: rgb(255, 165, 0);
+    border-color: rgb(50, 149, 205);
     border-radius: 20px;
-    box-shadow: rgba(255, 165, 0, 0.4) 5px 5px, rgba(255, 165, 0, 0.3) 10px 10px, rgba(255, 165, 0, 0.2) 15px 15px;
+    box-shadow: rgba(50, 149, 205, 0.4) 5px 5px, rgba(50, 149, 205, 0.3) 10px 10px, rgba(50, 149, 0205, 0.2) 15px 15px;
 }
 
 @media(max-width:562px) {
@@ -70,7 +70,7 @@ z-index: 99;
 
 /* menu */
 .menu {
-    background-color: rgb(255, 165, 0, 0.8) !important;
+    background-color: rgb(50, 149, 205, 0.8) !important;
     backdrop-filter: blur(20px);
     position: fixed;
     top: 0;
@@ -90,7 +90,7 @@ z-index: 99;
     padding: 10px 12px;
     border-radius: 50%;
     background-color: #fff;
-    color: rgb(255, 165, 0);
+    color: rgb(50, 149, 205);
 }
 
 .menu li a {
@@ -102,7 +102,7 @@ z-index: 99;
 
 .menu li a:hover {
     font-size: 1.4rem;
-    color: orange;
+    color: rgb(50, 149, 205);
     background-color: rgba(0, 0, 0, 0.673);
 
 }
@@ -111,7 +111,7 @@ z-index: 99;
 .Wicon, .Cicon {
    
     position: fixed;
-     background-color: rgb(255, 165, 0);
+     background-color: rgb(50, 149, 205);
      color: #fff;
      padding: 0.5rem 0.8rem;
      border-radius: 20px 0 0 5px;
@@ -175,7 +175,7 @@ z-index: 99;
 .svgimg1 img {
     height: 80vmin;
     border-radius: 0 0 100% 100%;
-    border: 10px solid orange;
+    border: 10px solid rgb(50, 149, 205);
 }
 
 /* .svgimg1 img {
@@ -189,7 +189,7 @@ z-index: 99;
 .svgimg2 img {
     height: 80vmin;
     /* border-radius: 0 0 -100% 100%; */
-    border: 10px solid orange;
+    border: 10px solid rgb(50, 149, 205);
 }
 
 .slider2 {
@@ -286,18 +286,18 @@ z-index: 99;
 }
 
 .byrn .col-md-4 p:hover {
-    background-image: linear-gradient(to bottom, rgb(246, 193, 96), rgb(255, 165, 0));
-    color: #fff;
+    background-image: linear-gradient(to bottom, rgb(122, 179, 212), rgb(50, 149, 205));
+    color: #fff; 
 }
 
 .activediv {
-    background-image: linear-gradient(to bottom, rgb(246, 193, 96), rgb(255, 165, 0)) !important;
+    background-image: linear-gradient(to bottom, rgb(122, 179, 212), rgb(50, 149, 205)) !important;
     color: #fff;
 }
 
 .byrn i {
     font-size: 25px;
-    background-color: rgb(255, 165, 0);
+    background-color: rgb(50, 149, 205);
     color: #fff;
     padding: 16px 18px;
     border-radius: 50px;
@@ -435,7 +435,7 @@ z-index: 99;
     position: relative;
     /* width: 220px; */
     height: 320px;
-    background: orange;
+    background: rgb(50, 149, 205);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -842,16 +842,16 @@ background-color: whitesmoke;
 /* form */
 input, textarea , select{
     border: none;
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid rgb(50, 149, 205);
     width: 100%;
     background-color: transparent;
 border-radius: 20px;
 padding: 1rem;
 margin-bottom: 1rem;
- box-shadow: rgba(255, 165, 0, 0.35) 0px 5px 15px;
+ box-shadow: rgba(50, 149, 205, 0.35) 0px 5px 15px;
 }
 iframe{
-     box-shadow: rgba(255, 165, 0, 0.35) 0px 5px 15px;
+     box-shadow: rgba(50, 149, 205, 0.35) 0px 5px 15px;
 }
 .gaq {
     background-image: url(../images/sliderbanner.avif);
