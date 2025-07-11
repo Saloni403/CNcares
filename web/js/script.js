@@ -19,8 +19,45 @@ document.querySelector(".closeCDform").addEventListener("click",()=>{
     document.querySelector("body").classList.remove("no-scroll")
 })
 
+function cdForm1(){
+document.querySelector(".CDiv1").style.display="block"
+document.querySelector("body").classList.add("no-scroll")
+}
+document.querySelector(".closeCDform1").addEventListener("click",()=>{
+    document.querySelector(".CDiv1").style.display="none"
+    document.querySelector("body").classList.remove("no-scroll")
+})
 
 
+// get quoted
+  let selectbrand=document.querySelector("#sb");
+  let selectmodel=document.querySelector("#sm");
+  let selectfault=document.querySelector("#sf");
+  let selectcolor=document.querySelector("#ssc");
+
+ selectmodel.disabled=true;
+    selectfault.disabled=true;
+    selectcolor.disabled=true;
+
+selectbrand.addEventListener("change",function(){
+  if(selectbrand.value==="iPhone"){
+    selectmodel.disabled=false;
+    selectfault.disabled=false;
+    selectcolor.disabled=false;
+}
+else
+{
+     selectmodel.disabled=true;
+    selectfault.disabled=true;
+    selectcolor.disabled=true;
+} 
+    
+})
+
+ 
+  
+
+  
    
 
 
