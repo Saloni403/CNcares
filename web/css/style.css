@@ -578,7 +578,7 @@ footer .col-xl-3 {
  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .compinnerdiv{
-    height: fit-content;
+    max-height:fit-content;
     width: 50vw;
     /* background-color: #000000; */
     background-image: url(../images/sliderbanner.avif);
@@ -586,7 +586,6 @@ footer .col-xl-3 {
     background-repeat: no-repeat;
     background-size: cover;
     color: #000000;
-
     padding: 2rem ;
     border-radius: 20px;
     border: 2px solid #fff;
@@ -594,6 +593,7 @@ footer .col-xl-3 {
 @media(max-width:562px){
     .compinnerdiv{
         width: 95vw;
+        height: auto;
         padding: 1rem;
     }
 }
@@ -881,7 +881,7 @@ input, textarea , select{
     width: 100%;
     background-color: transparent;
 border-radius: 20px;
-padding: 1rem;
+padding: 0.5rem 1rem;
 margin-bottom: 1rem;
  box-shadow: rgba(50, 149, 205, 0.35) 0px 5px 15px;
 }
