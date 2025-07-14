@@ -624,6 +624,14 @@
      </section>
 
      <!-- Booking -->
+      <style>
+        input[type="date"],
+input[type="time"] {
+  appearance: none;  /* this hides the native UI on some mobile browsers */
+       /* BAD if accidentally used */
+}
+
+      </style>
      <section class="CDiv1"  >
         <div class="Compdiv">
             <div class="compinnerdiv">
@@ -637,7 +645,8 @@
                     <input type="text" name="" placeholder="Brand" id="">
                     <input type="text" name="" placeholder="Model" id="">
                     <textarea placeholder="Issue Description" name="" rows="1" id=""></textarea>
-                    <input type="date" placeholder="Enter Date" ><input type="time" placeholder="Enter Time">
+                    <input type="date" name="" placeholder="Enter Date" required>
+                    <input type="time" name="" placeholder="Enter Time" required>
                     <div class="text-center">
                      <a href="contact.html" class="btn btn-primary text-white w-50">Submit</a>
                      </div>

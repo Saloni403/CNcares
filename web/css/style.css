@@ -605,7 +605,7 @@ footer .col-xl-3 {
 }
 
 .compinnerdiv input::placeholder, .compinnerdiv textarea::placeholder{
-    color: #000;
+    color: gray;
 
 }
 .clickable{
@@ -885,6 +885,7 @@ padding: 0.5rem 1rem;
 margin-bottom: 1rem;
  box-shadow: rgba(50, 149, 205, 0.35) 0px 5px 15px;
 }
+
 iframe{
      box-shadow: rgba(50, 149, 205, 0.35) 0px 5px 15px;
 }
