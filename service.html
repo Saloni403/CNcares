@@ -139,7 +139,10 @@
                     <input type="text" name="" placeholder="Brand" id="">
                     <input type="text" name="" placeholder="Model" id="">
                     <textarea placeholder="Issue Description" name="" rows="1" id=""></textarea>
-                     <input type="date" placeholder="Enter Date" ><input type="time" placeholder="Enter Time">
+                    <input type="text" id="dateInput" placeholder="Enter Date" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}">
+
+<input type="text" id="timeInput" placeholder="Enter Time" onfocus="(this.type='time')" onblur="if(this.value==''){this.type='text'}">
+
                     <div class="text-center">
                      <a href="contact.html" class="btn btn-primary text-white w-50">Submit</a>
                      </div>
