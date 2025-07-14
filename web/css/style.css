@@ -357,7 +357,7 @@ z-index: 99;
 
 /* fast reliable and affordable */
 .franda {
-    background-image: url(../images/indeximg/GKU12.jpg);
+    background-image: url(../images/iphonerepair1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -438,15 +438,17 @@ z-index: 99;
     position: relative;
     /* width: 220px; */
     height: 320px;
-    background: rgb(50, 149, 205);
+     background: linear-gradient(135deg, #4f46e5, #3b82f6);
+      color: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 25px;
     font-weight: bold;
-    border-radius: 15px;
+    border-radius: 20px;
     cursor: pointer;
-
+      overflow: hidden;
 }
 
 .card img {
@@ -454,12 +456,17 @@ z-index: 99;
     border: 1px solid grey;
 }
 
-.card h6,
-.card p {
-    color: white;
-    text-align: center;
-}
+ .card h6 {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
 
+    .card p {
+      margin-top: 0.5rem;
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
 .card::before,
 .card::after {
     position: absolute;
@@ -475,6 +482,7 @@ z-index: 99;
     text-align: center;
     color: #fff;
     transition: all 0.5s;
+     border-radius: 50%;
 }
 
 .card::before {
@@ -497,6 +505,14 @@ z-index: 99;
     transition: all 0.5s;
     padding: 0 0.5rem;
 }
+.card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+      margin-bottom: 1rem;
+    }
 
 .c1:hover:after {
     content: "We take pride in delivering top-quality repairs and exceptional customer";
@@ -615,7 +631,7 @@ footer .col-xl-3 {
 /* topbanner */
 .topbanner{
     height: 50vh;
-    background-image: url(../images/GKU2.jpg);
+    background-image: url(../images/iphonerepair2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -686,7 +702,7 @@ background-position: center;
 
 /* stay ahead */
 .stayahead {
-    background-image: url(../images/indeximg/GKU12.jpg);
+    background-image: url(../images/iphonerepair1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
