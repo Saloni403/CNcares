@@ -112,53 +112,44 @@
     </section>
 
 <!-- device brand -->
-    <section class="my-5 overflow-hidden">
+    <section class=" py-5 overflow-hidden" style="background-color: skyblue;">
         <div class="container">
-             
-            <div class="row gy-4">
-                <div class="col-12 text-center " data-aos="zoom-in">
-                <h1>List Of Device Brand</h1>
+              <div class=" text-center " data-aos="zoom-in">
+                <h1 class="text-white">List Of Device Brand</h1>
             </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-6 ">
+            <div class="row  autoplay1">
+               
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 " onclick="location.href='iphonemodel.html'">
                     <div class="DevBr p-2">
-                        <img src="web/images/quoteimg/DB1.png" class="img-fluid" alt="">
+                        <img src="web/images/quoteimg/BN1.webp" class="" alt="">
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-6 ">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 " onclick="cdForm1()">
                     <div class="DevBr p-2">
-                        <img src="web/images/quoteimg/DB2.png" class="img-fluid" alt="">
+                        <img src="web/images/quoteimg/BN2.jpg" class="" alt="">
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-6 ">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 " onclick="cdForm1()">
                     <div class="DevBr p-2">
-                        <img src="web/images/quoteimg/DB3.png" class="img-fluid" alt="">
+                        <img src="web/images/quoteimg/bn3.jpeg" class="" alt="">
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-6 ">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 " onclick="cdForm1()">
                     <div class="DevBr p-2">
-                        <img src="web/images/quoteimg/DB1.png" class="img-fluid" alt="">
+                        <img src="web/images/quoteimg/BN4.png" class="" alt="">
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-6 ">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 " onclick="cdForm1()">
                     <div class="DevBr p-2">
-                        <img src="web/images/quoteimg/DB2.png" class="img-fluid" alt="">
+                        <img src="web/images/quoteimg/BN5.jpg" class="" alt="">
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-6 ">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 " onclick="cdForm1()">
                     <div class="DevBr p-2">
-                        <img src="web/images/quoteimg/DB3.png" class="img-fluid" alt="">
+                        <img src="web/images/quoteimg/BN6.webp" class="" alt="">
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-6 ">
-                    <div class="DevBr p-2">
-                        <img src="web/images/quoteimg/DB1.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-3 col-md-4 col-6 ">
-                    <div class="DevBr p-2">
-                        <img src="web/images/quoteimg/DB2.png" class="img-fluid" alt="">
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -395,16 +386,16 @@ we provide competitive pricing and fast delivery.</p>
         </div>
     </section>
 
-    <!-- footer -->
+   <!-- footer -->
     <footer class="bg-dark text-white pt-5">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3  mb-3 mb-xl-0">
+                <div class="col-xl-3  mb-5 mb-xl-0">
                     <img onclick="location.href='index.html'" src="web/images/Cars-logo.png" class="w-50" alt=""><br>
                     <span>CN cares is your one-stop solution for mobile, laptop, and tablet repairs. We offer fast,
                         reliable, and affordable services with pickup & doorstep repair options.</span>
                 </div>
-                <div class="col-xl-3 col-md-4 col-xs-6">
+                <div class="col-xl-3 col-md-4 col-sm-6">
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="about.html">About Us</a></li>
@@ -412,7 +403,7 @@ we provide competitive pricing and fast delivery.</p>
                         <li><a href="blog.html">Blogs</a></li>
                     </ul>
                 </div>
-                <div class="col-xl-3 col-md-4 col-xs-6 mt-3 mt-xs-0">
+                <div class="col-xl-3 col-md-4 col-sm-6 mt-5 mt-sm-0">
                     <h3>More Info</h3>
                     <ul>
                         <li><a href="tandc.html">Terms & conditions</a></li>
@@ -421,7 +412,7 @@ we provide competitive pricing and fast delivery.</p>
                         <li><p href="#" onclick="cdForm()">Complaints</p></li>
                     </ul>
                 </div>
-                <div class="col-xl-3 col-md-4  mt-3 mt-md-0">
+                <div class="col-xl-3 col-md-4  mt-5 mt-md-0">
                     <h3 class="">Contact Us</h3>
                     <ul>
                         <li onclick="location.href='//maps.app.goo.gl/M7ZhMzQRZryUELxu5'"><i class="fa-solid fa-location-dot" ></i> CN care’s F12 First Floor Savitri market Noida
@@ -530,6 +521,31 @@ we provide competitive pricing and fast delivery.</p>
 
             ]
         });
+ $('.autoplay1').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 768, // screens less than or equal to 1024px
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480, // screens less than or equal to 1024px
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }
+
+            ]
+        });
+
+       
     </script>
 </body>
 </html>
