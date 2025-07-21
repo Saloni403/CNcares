@@ -972,3 +972,57 @@ background-color: white;
 .faultcard2 img:hover{
     transform: scale(0.9);
 }
+
+
+
+/* our trainig */
+   
+
+    .tingcont {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .training-section {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    .training-section h2 {
+      color: #003366;
+      margin-bottom: 1rem;
+    }
+
+    .training-section ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+
+    .training-section li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .cta {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .cta a {
+      background-color: #003366;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .cta a:hover {
+      background-color: #0055aa;
+    }
+
+  

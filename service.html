@@ -1,325 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CN Cares</title>
+     <link rel="icon" type="image/png" href="web/images/Cars-logo.png">
     <!-- aos animation -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- slick  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
-        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
-        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="web/css/style.css">
-</head>
+    <link rel="stylesheet" href="web/css/style.css" />
+  </head>
 
-<body>
-
-    <section class=" topnav py-3 d-lg-block d-none">
-        <div class="container">
-            <div class="row d-flex align-items-center justify-content-between">
-                <div class="col-5">
-                    <div class="d-flex align-items-center ">
-                        <p class="borderright pe-3"><i class="fa-solid fa-location-dot"></i> Noida Sector-18</p>
-                        <p class="ps-3 borderleft">F12 First Floor Savitri Market</p>
-                    </div>
-                </div>
-                <div class="col-7">
-                    <div class="d-flex align-items-center justify-content-end">
-                        <p class="pe-3 borderright" onclick="location.href='mailto:pwnitin7@gmail.com'"><i
-                                class="fa-solid fa-envelope"></i> pwnitin7@gmail.com</p>
-                        <p class="ps-3 borderleft" onclick="location.href='tel:+919711267773'"><i
-                                class="fa-solid fa-phone"></i> +91-9711267773</p>
-                    </div>
-                </div>
+  <body>
+    <section class="topnav py-3 d-lg-block d-none">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-between">
+          <div class="col-5">
+            <div class="d-flex align-items-center">
+              <p class="borderright pe-3">
+                <i class="fa-solid fa-location-dot"></i> Noida Sector-18
+              </p>
+              <p class="ps-3 borderleft">F12 First Floor Savitri Market</p>
             </div>
-
+          </div>
+          <div class="col-7">
+            <div class="d-flex align-items-center justify-content-end">
+              <p
+                class="pe-3 borderright"
+                onclick="location.href='mailto:pwnitin7@gmail.com'"
+              >
+                <i class="fa-solid fa-envelope"></i> pwnitin7@gmail.com
+              </p>
+              <p
+                class="ps-3 borderleft"
+                onclick="location.href='tel:+919711267773'"
+              >
+                <i class="fa-solid fa-phone"></i> +91-9711267773
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- nav bar -->
     <section class="mainnavbar py-3">
-        <div class="container">
-            <div class="row d-flex align-items-center  justify-content-between">
-                <div class="col-md-2 col-4">
-                    <img onclick="location.href='index.html'" src="web/images/Cars-logo.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-8 d-lg-block d-none">
-                    <ul class="d-flex align-items-center justify-content-evenly">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="quote.html">Get Quote</a></li>
-                        <li><a href="blog.html">Blogs</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-between">
+          <div class="col-md-2 col-4">
+            <img
+              onclick="location.href='index.html'"
+              src="web/images/Cars-logo.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-8 d-lg-block d-none">
+            <ul class="d-flex align-items-center justify-content-evenly">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="quote.html">Get Quote</a></li>
+              <li><a href="ourtraining.html">Our Training</a></li>
+              <li><a href="blog.html">Blogs</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
 
-                <div class="col-lg-2 col-6 text-end ">
-                    <i class="menubar fa-solid fa-bars-staggered me-3  d-lg-none" style="color: #fff;"></i>
-                    <a href="contact.html" class="btn btn-primary text-white">Contact</a>
-                </div>
-            </div>
+          <div class="col-lg-2 col-6 text-end">
+            <i
+              class="menubar fa-solid fa-bars-staggered me-3 d-lg-none"
+              style="color: #fff"
+            ></i>
+            <a href="contact.html" class="btn btn-primary text-white"
+              >Contact</a
+            >
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- MENU -->
     <section class="menu d-lg-none">
-        <div>
-            <i class="fa-solid fa-xmark closing"></i>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="quote.html">Get Quote</a></li>
-                <li><a href="blog.html">Blogs</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+      <div>
+        <i class="fa-solid fa-xmark closing"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="quote.html">Get Quote</a></li>
+          <li><a href="ourtraining.html">Our Training</a></li>
+          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </section>
     <!-- social media icons -->
     <div class="icons">
-        <div class="Wicon" onclick="location.href='//wa.me/+919711267773'">
-            <i class="fa-brands fa-whatsapp"></i>
-            <span>Whatsapp</span>
-        </div>
-        <div class="Cicon" onclick="location.href='tel:+919711267773'">
-            <i class="fa-solid fa-phone"></i>
-            <span>Call</span>
-        </div>
+      <div class="Wicon" onclick="location.href='//wa.me/+919711267773'">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>Whatsapp</span>
+      </div>
+      <div class="Cicon" onclick="location.href='tel:+919711267773'">
+        <i class="fa-solid fa-phone"></i>
+        <span>Call</span>
+      </div>
     </div>
 
     <!-- Product detail -->
     <section class="my-5">
-        <div class="container">
-            <div class="row d-flex align-items-center justify-content-center">
-                <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                    <img src="web/images/productimg1.webp" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-7 mt-lg-0 mt-5 ">
-                    <h2>iphone SE</h2>
-                    <p class="mt-3">Experience the perfect blend of performance and portability with the iPhone SE. Featuring the
-                        powerful A15 Bionic chip, a stunning 4.7-inch Retina HD display, and a sleek, lightweight
-                        design, this device delivers seamless performance in a compact size. The advanced 12MP camera
-                        with Smart HDR 4 captures stunning photos and 4K videos, while 5G connectivity ensures
-                        lightning-fast browsing and streaming. With Touch ID for secure authentication and an IP67
-                        water-resistant rating, the iPhone SE is designed for durability and everyday convenience. Stay
-                        ahead with a smartphone that offers power, style, and efficiency—all in one.</p>
-                      <div>
-                        <a href="#" class="btn btn-primary text-white mt-3" onclick="cdForm1()">Book Service</a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div
+            class="product_img col-lg-5 d-flex align-items-center justify-content-center"
+          >
+            <img id="deviceimg" src="" class="w-50" alt="device image" />
+          </div>
+          <div class="product_text col-lg-7 mt-lg-0 mt-5">
+            <h2 id="devicename">iphone SE</h2>
+            <p class="mt-3">
+              Experience the perfect blend of performance and portability with
+              the iPhone SE. Featuring the powerful A15 Bionic chip, a stunning
+              4.7-inch Retina HD display, and a sleek, lightweight design, this
+              device delivers seamless performance in a compact size. The
+              advanced 12MP camera with Smart HDR 4 captures stunning photos and
+              4K videos, while 5G connectivity ensures lightning-fast browsing
+              and streaming. With Touch ID for secure authentication and an IP67
+              water-resistant rating, the iPhone SE is designed for durability
+              and everyday convenience. Stay ahead with a smartphone that offers
+              power, style, and efficiency—all in one.
+            </p>
+            <div>
+              <a
+                href="#"
+                class="btn btn-primary text-white mt-3"
+                onclick="cdForm1()"
+                >Book Service</a
+              >
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
- <!-- Booking -->
-     <section class="CDiv1"  >
-        <div class="Compdiv">
-            <div class="compinnerdiv">
-                <div class="text-end ">
-                <i class="fa-solid fa-xmark closeCDform1 "></i>
-                </div>
-                <h3>Book Your Pickup</h3>
-               <form action="">
-                    <input type="text" name="" placeholder="Your name" id="">
-                    <input type="tel" placeholder="Mobile">
-                    <input type="text" name="" placeholder="Brand" id="">
-                    <input type="text" name="" placeholder="Model" id="">
-                    <textarea placeholder="Issue Description" name="" rows="1" id=""></textarea>
-                    <input type="text" id="dateInput" placeholder="Enter Date" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}">
+    <!-- Booking -->
+    <section class="CDiv1">
+      <div class="Compdiv">
+        <div class="compinnerdiv">
+          <div class="text-end">
+            <i class="fa-solid fa-xmark closeCDform1"></i>
+          </div>
+          <h3>Book Your Pickup</h3>
+          <form action="">
+            <input type="text" name="" placeholder="Your name" id="" />
+            <input type="tel" placeholder="Mobile" />
+            <input type="text" name="" placeholder="Brand" id="" />
+            <input type="text" name="" placeholder="Model" id="" />
+            <textarea
+              placeholder="Issue Description"
+              name=""
+              rows="1"
+              id=""
+            ></textarea>
+            <input
+              type="text"
+              id="dateInput"
+              placeholder="Enter Date"
+              onfocus="(this.type='date')"
+              onblur="if(this.value==''){this.type='text'}"
+            />
 
-<input type="text" id="timeInput" placeholder="Enter Time" onfocus="(this.type='time')" onblur="if(this.value==''){this.type='text'}">
+            <input
+              type="text"
+              id="timeInput"
+              placeholder="Enter Time"
+              onfocus="(this.type='time')"
+              onblur="if(this.value==''){this.type='text'}"
+            />
 
-                    <div class="text-center">
-                     <a href="contact.html" class="btn btn-primary text-white w-50">Submit</a>
-                     </div>
-                </form>
+            <div class="text-center">
+              <a href="contact.html" class="btn btn-primary text-white w-50"
+                >Submit</a
+              >
             </div>
+          </form>
         </div>
-     </section>
+      </div>
+    </section>
 
     <!-- Choose your repair services -->
-     <section class="my-5 overflow-hidden">
-        <div class="container">
-            <div class="row gy-4">
-                <div class="col-12 text-center " data-aos="zoom-in">
-                <h1>Choose Your Repair Service</h1>
+    <section class="my-5 overflow-hidden">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-12 text-center" data-aos="zoom-in">
+            <h1>Choose Your Repair Service</h1>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 clickable" onclick="cdForm1()">
+            <div class="faultcard p-3">
+              <img src="web/images/quoteimg/F1.png" class="w-50" alt="" />
+              <p>Cracked Screen</p>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 clickable"  onclick="cdForm1()">
-                <div class="faultcard p-3">
-                <img src="web/images/quoteimg/F1.png" class="w-50" alt="">
-                <p>Cracked Screen</p>
-                </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 clickable" onclick="cdForm1()">
+            <div class="faultcard p-3">
+              <img src="web/images/quoteimg/F2.jpg" class="w-50" alt="" />
+              <p>Battery Issue</p>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 clickable"  onclick="cdForm1()">
-                <div class="faultcard p-3">
-                <img src="web/images/quoteimg/F2.jpg" class="w-50" alt="">
-                <p>Battery Issue</p>
-                </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 clickable" onclick="cdForm1()">
+            <div class="faultcard p-3">
+              <img src="web/images/quoteimg/F3.jpg" class="w-50" alt="" />
+              <p>Charging Issue</p>
             </div>
-             <div class="col-lg-3 col-md-4 col-sm-6 clickable"  onclick="cdForm1()">
-                <div class="faultcard p-3">
-                <img src="web/images/quoteimg/F3.jpg" class="w-50" alt="">
-                <p>Charging Issue</p>
-                </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 clickable" onclick="cdForm1()">
+            <div class="faultcard p-3">
+              <img src="web/images/quoteimg/F4.png" class="w-50" alt="" />
+              <p>Water Damage</p>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 clickable"  onclick="cdForm1()">
-                <div class="faultcard p-3">
-                <img src="web/images/quoteimg/F4.png" class="w-50" alt="">
-                <p>Water Damage</p>
-                </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 clickable" onclick="cdForm1()">
+            <div class="faultcard p-3">
+              <img src="web/images/quoteimg/F5.png" class="w-50" alt="" />
+              <p>Wifi Issue</p>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 clickable"  onclick="cdForm1()">
-                <div class="faultcard p-3">
-                <img src="web/images/quoteimg/F5.png" class="w-50" alt="">
-                <p>Wifi Issue</p>
-                </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 clickable" onclick="cdForm1()">
+            <div class="faultcard p-3">
+              <img src="web/images/quoteimg/F6.webp" class="w-50" alt="" />
+              <p>Broken Buttons</p>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 clickable"  onclick="cdForm1()">
-                <div class="faultcard p-3">
-                <img src="web/images/quoteimg/F6.webp" class="w-50" alt="">
-                <p>Broken Buttons</p>
-                </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 clickable" onclick="cdForm1()">
+            <div class="faultcard p-3">
+              <img src="web/images/quoteimg/F7.avif" class="w-50" alt="" />
+              <p>Speaker Issue</p>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 clickable"  onclick="cdForm1()">
-                <div class="faultcard p-3">
-                <img src="web/images/quoteimg/F7.avif" class="w-50" alt="">
-                <p>Speaker Issue</p>
-                </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 clickable" onclick="cdForm1()">
+            <div class="faultcard p-3">
+              <img src="web/images/quoteimg/F8.png" class="w-50" alt="" />
+              <p>Camera Issue</p>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 clickable"  onclick="cdForm1()">
-                <div class="faultcard p-3">
-                <img src="web/images/quoteimg/F8.png" class="w-50" alt="">
-                <p>Camera Issue</p>
-                </div>
-            </div>
-            </div>
+          </div>
         </div>
-     </section>
+      </div>
+    </section>
 
- <!-- footer -->
+    <!-- footer -->
     <footer class="bg-dark text-white pt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3  mb-5 mb-xl-0">
-                    <img onclick="location.href='index.html'" src="web/images/Cars-logo.png" class="w-50" alt=""><br>
-                    <span>CN cares is your one-stop solution for mobile, laptop, and tablet repairs. We offer fast,
-                        reliable, and affordable services with pickup & doorstep repair options.</span>
-                </div>
-                <div class="col-xl-3 col-md-4 col-sm-6">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="blog.html">Blogs</a></li>
-                    </ul>
-                </div>
-                <div class="col-xl-3 col-md-4 col-sm-6 mt-5 mt-sm-0">
-                    <h3>More Info</h3>
-                    <ul>
-                        <li><a href="tandc.html">Terms & conditions</a></li>
-                        <li><a href="review.html">Reviews</a></li>
-                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
-                        <li><p href="#" onclick="cdForm()">Complaints</p></li>
-                    </ul>
-                </div>
-                <div class="col-xl-3 col-md-4  mt-5 mt-md-0">
-                    <h3 class="">Contact Us</h3>
-                    <ul>
-                        <li onclick="location.href='//maps.app.goo.gl/M7ZhMzQRZryUELxu5'"><i class="fa-solid fa-location-dot" ></i> CN care’s F12 First Floor Savitri market Noida
-                            sector -18</li>
-                        <li onclick="location.href='mailto:pwnitin7@gmail.com'"><i class="fa-solid fa-envelope"></i> pwnitin7@gmail.com</li>
-                        <li onclick="location.href='tel:+919711267773'"><i class="fa-solid fa-phone"></i> +91-9711267773</li>
-                        <div class="mt-3">
-                              <i class="fa-brands fa-facebook " onclick="location.href='//www.facebook.com/Nitin11g?mibextid=wwXIfr&mibextid=wwXIfr'" style="  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; border-radius: 10px; color: blue; background: #fff; padding: 0.25rem; font-size: 2rem;"></i>
-                        <i class=" ms-3 fa-brands fa-instagram " onclick="location.href='//g.co/kgs/ftAhjb2'" style="  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; border-radius: 10px; background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5); padding: 0.25rem; font-size: 2rem;" ></i>
-                        </div>
-                      
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 mb-5 mb-xl-0">
+            <img
+              onclick="location.href='index.html'"
+              src="web/images/Cars-logo.png"
+              class="w-50"
+              alt=""
+            /><br />
+            <span
+              >CN cares is your one-stop solution for mobile, laptop, and tablet
+              repairs. We offer fast, reliable, and affordable services with
+              pickup & doorstep repair options.</span
+            >
+          </div>
+          <div class="col-xl-3 col-md-4 col-sm-6">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="ourtraining.html">Our Training</a></li>
+              <li><a href="blog.html">Blogs</a></li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-md-4 col-sm-6 mt-5 mt-sm-0">
+            <h3>More Info</h3>
+            <ul>
+              <li><a href="tandc.html">Terms & conditions</a></li>
+              <li><a href="review.html">Reviews</a></li>
+              <li><a href="privacypolicy.html">Privacy Policy</a></li>
+              <li>
+                <p href="#" onclick="cdForm()">Complaints</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-md-4 mt-5 mt-md-0">
+            <h3 class="">Contact Us</h3>
+            <ul>
+              <li onclick="location.href='//maps.app.goo.gl/M7ZhMzQRZryUELxu5'">
+                <i class="fa-solid fa-location-dot"></i> CN care’s F12 First
+                Floor Savitri market Noida sector -18
+              </li>
+              <li onclick="location.href='mailto:pwnitin7@gmail.com'">
+                <i class="fa-solid fa-envelope"></i> pwnitin7@gmail.com
+              </li>
+              <li onclick="location.href='tel:+919711267773'">
+                <i class="fa-solid fa-phone"></i> +91-9711267773
+              </li>
+              <div class="mt-3">
+                <i
+                  class="fa-brands fa-facebook"
+                  onclick="location.href='//www.facebook.com/Nitin11g?mibextid=wwXIfr&mibextid=wwXIfr'"
+                  style="
+                    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                    border-radius: 10px;
+                    color: blue;
+                    background: #fff;
+                    padding: 0.25rem;
+                    font-size: 2rem;
+                  "
+                ></i>
+                <i
+                  class="ms-3 fa-brands fa-instagram"
+                  onclick="location.href='//g.co/kgs/ftAhjb2'"
+                  style="
+                    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                    border-radius: 10px;
+                    background: linear-gradient(
+                      45deg,
+                      #feda75,
+                      #fa7e1e,
+                      #d62976,
+                      #962fbf,
+                      #4f5bd5
+                    );
+                    padding: 0.25rem;
+                    font-size: 2rem;
+                  "
+                ></i>
+              </div>
+            </ul>
+          </div>
         </div>
-        <div class="text-center mt-5 py-3" style="background-color: #000;">
-            <a href="tssgtech.com" class="text-white">
-                <p>Copyright © 2025 All Rights Reserved | Designed By TSSG-Tech</p>
-            </a>
-        </div>
+      </div>
+      <div class="text-center mt-5 py-3" style="background-color: #000">
+        <a href="tssgtech.com" class="text-white">
+          <p>Copyright © 2025 All Rights Reserved | Designed By TSSG-Tech</p>
+        </a>
+      </div>
     </footer>
     <!-- complaint / feedback -->
-    <section class="CDiv ">
-        <div class="Compdiv">
-            <div class="compinnerdiv">
-                <div class="text-end ">
-                    <i class="fa-solid fa-xmark closeCDform "></i>
-                </div>
-                <h3>Feedback / Complaint</h3>
-                <p>Let Us Know Your Valuable Feedback / Complaint</p>
-                <form action="">
-                    <input type="text" placeholder="Name" name="" id="">
-                    <input type="email" placeholder="Email" name="" id="">
-                    <input type="tel" placeholder="Phone Number" name="" id="">
-                    <textarea name="" placeholder="Complaint / Comments" id=""></textarea>
-                    <div>
-                        <a href="contact.html" class="btn btn-primary text-white mt-3">Submit</a>
-                    </div>
-                </form>
+    <section class="CDiv">
+      <div class="Compdiv">
+        <div class="compinnerdiv">
+          <div class="text-end">
+            <i class="fa-solid fa-xmark closeCDform"></i>
+          </div>
+          <h3>Feedback / Complaint</h3>
+          <p>Let Us Know Your Valuable Feedback / Complaint</p>
+          <form action="">
+            <input type="text" placeholder="Name" name="" id="" />
+            <input type="email" placeholder="Email" name="" id="" />
+            <input type="tel" placeholder="Phone Number" name="" id="" />
+            <textarea
+              name=""
+              placeholder="Complaint / Comments"
+              id=""
+            ></textarea>
+            <div>
+              <a href="contact.html" class="btn btn-primary text-white mt-3"
+                >Submit</a
+              >
             </div>
+          </form>
         </div>
+      </div>
     </section>
+
     <!-- aos animation -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
     <script src="web/js/script.js"></script>
     <!-- slick -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script type="text/javascript">
-        $('.autoplay').slick({
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            responsive: [
-                {
-                    breakpoint: 768, // screens less than or equal to 1024px
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 480, // screens less than or equal to 1024px
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
+      $(".autoplay").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+          {
+            breakpoint: 768, // screens less than or equal to 1024px
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 480, // screens less than or equal to 1024px
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
 
-            ]
-        });
+      let desc = document.querySelector(".product_text p");
+      const params = new URLSearchParams(window.location.search);
+      const devicename = params.get("device");
+      const deviceimg = params.get("img");
+      document.getElementById("devicename").textContent = `${devicename}`;
+      document.getElementById("deviceimg").src = `${deviceimg}`;
+      if (devicename === "iPhone SE(2020)") {
+        desc.textContent =
+          "The iPhone SE (2020) is a compact and affordable smartphone by Apple that combines the classic iPhone 8 design with the powerful A13 Bionic chip from the iPhone 11. It features a 4.7-inch Retina HD display, Touch ID, a 12MP rear camera, wireless charging, and IP67 water resistance—offering great performance and iOS support in a small, budget-friendly package.";
+      }
+      else  if (devicename === "iPhone 5S") {
+        desc.textContent =
+          "The iPhone 5s is a compact smartphone released by Apple in 2013. It features a 4-inch Retina display, a sleek aluminum body, and was the first iPhone to include Touch ID (fingerprint sensor). Powered by the A7 chip with 64-bit architecture, it also introduced the M7 motion coprocessor. The 5s has an 8MP rear camera with dual-tone flash and runs iOS, offering a smooth and reliable experience for basic smartphone tasks.";
+      }
+        else  if (devicename === "iPad2") {
+        desc.textContent =
+          "The iPad 2, released by Apple in 2011, was the second-generation iPad featuring a 9.7-inch display, a thinner and lighter design, and significantly improved performance with the dual-core A5 chip. It introduced front and rear cameras for FaceTime and video recording, and supported iOS multitasking. The iPad 2 was known for its long battery life, smooth performance for its time, and broad app compatibility, making it a popular tablet for years after its release.";
+      }
+       else  if (devicename === "iPad3") {
+        desc.textContent =
+          "The iPad 3, officially called the third-generation iPad, was released by Apple in 2012. It introduced the Retina display with a high-resolution 9.7-inch screen (2048×1536 pixels), offering much sharper visuals. Powered by the dual-core A5X chip with quad-core graphics, it provided better performance for media and apps. It also featured a 5MP rear camera, improved video recording, and optional 4G LTE support, making it a major upgrade in display and connectivity over its predecessor.";
+      }
+       else  if (devicename === "iPad4") {
+        desc.textContent =
+          "The iPad 4, or fourth-generation iPad, was released by Apple in late 2012. It featured a 9.7-inch Retina display, like the iPad 3, but came with a faster A6X chip for improved performance and graphics. It also introduced the Lightning connector, replacing the older 30-pin port. With a 5MP rear camera, FaceTime HD front camera, and support for LTE, the iPad 4 offered a faster, more future-ready experience while maintaining the familiar design.";
+      }
+       else  if (devicename === "Series 8 41MM") {
+        desc.textContent =
+          "The Apple Watch Series 8 (41 mm) is a compact yet powerful 2022 smartwatch featuring a vivid always‑on Retina LTPO OLED display, the efficient S8 dual‑core chip, and comprehensive health sensors like ECG, blood oxygen, and skin temperature. It also includes fall detection, the new crash detection, GPS + cellular options, and offers up to 18 hours of battery life (extendable to about 36 hours with Low Power Mode). Sleek, durable, and packed with advanced safety and wellness features, it delivers the full Apple Watch experience in a more petite size.";
+      }
+       else  if (devicename === "Series 8 45MM") {
+        desc.textContent =
+          "The Apple Watch Series 8 (45 mm) is Apple’s 2022 flagship smartwatch featuring a 45 mm always‑on Retina LTPO OLED display, encased in aluminum or stainless steel. It runs on the S8 dual-core SiP, includes ECG, blood oxygen (SpO₂), skin temperature sensor, and advanced safety features like Fall Detection and new Crash Detection. With GPS + cellular options, 18‑hour battery life (extendable to 36 h via Low Power Mode), and premium build quality, it offers a comprehensive health, fitness, and connectivity experience.";
+      }
+       else  if (devicename === "Series 7 41MM") {
+        desc.textContent =
+          "The Apple Watch Series 7 (41mm) is a sleek and powerful smartwatch with a larger, always-on Retina display that’s nearly 20% bigger than the Series 6. Released in 2021, it features a more durable design with crack-resistant glass, faster charging, and advanced health tools like blood oxygen monitoring, ECG, heart rate tracking, and sleep tracking. It runs on watchOS, supports fitness tracking, notifications, and seamless integration with the iPhone—all in a compact 41mm size.";
+      }
     </script>
-</body>
-
+  </body>
 </html>
