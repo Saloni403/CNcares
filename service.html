@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CN Cares</title>
-     <link rel="icon" type="image/png" href="web/images/Cars-logo.png">
+    <link rel="icon" type="image/png" href="web/images/Cars-logo.png" />
     <!-- aos animation -->
     <link
       rel="stylesheet"
@@ -153,16 +153,15 @@
           <div class="product_text col-lg-7 mt-lg-0 mt-5">
             <h2 id="devicename">iphone SE</h2>
             <p class="mt-3">
-              Experience the perfect blend of performance and portability with
-              the iPhone SE. Featuring the powerful A15 Bionic chip, a stunning
-              4.7-inch Retina HD display, and a sleek, lightweight design, this
-              device delivers seamless performance in a compact size. The
-              advanced 12MP camera with Smart HDR 4 captures stunning photos and
-              4K videos, while 5G connectivity ensures lightning-fast browsing
-              and streaming. With Touch ID for secure authentication and an IP67
-              water-resistant rating, the iPhone SE is designed for durability
-              and everyday convenience. Stay ahead with a smartphone that offers
-              power, style, and efficiency—all in one.
+              iPhones are Apple’s flagship smartphones known for their premium
+              design, powerful performance, advanced cameras, and seamless
+              integration with the Apple ecosystem.
+              We repair all types of
+              iPhone issues – from screen cracks and battery problems to water
+              damage and camera faults. Fast, reliable, and affordable service
+              with original-quality parts. Bring your iPhone back to life, no
+              matter the model or damage. Expert technicians. Quick turnaround.
+              Satisfaction guaranteed.
             </p>
             <div>
               <a
@@ -455,37 +454,13 @@
       const deviceimg = params.get("img");
       document.getElementById("devicename").textContent = `${devicename}`;
       document.getElementById("deviceimg").src = `${deviceimg}`;
-      if (devicename === "iPhone SE(2020)") {
+     if (devicename.charAt(1) === "P" && devicename.charAt(2) === "a" && devicename.charAt(3) === "d") {
         desc.textContent =
-          "The iPhone SE (2020) is a compact and affordable smartphone by Apple that combines the classic iPhone 8 design with the powerful A13 Bionic chip from the iPhone 11. It features a 4.7-inch Retina HD display, Touch ID, a 12MP rear camera, wireless charging, and IP67 water resistance—offering great performance and iOS support in a small, budget-friendly package.";
-      }
-      else  if (devicename === "iPhone 5S") {
+          "iPads are Apple’s versatile tablets, combining powerful performance, sleek design, and a stunning display — perfect for work, creativity, and entertainment. Cracked screen? Battery issue? Water damage? We fix it all. Expert technicians, high-quality parts, and quick service you can trust. No matter the iPhone model or damage type — we’ll restore it like new. Affordable repairs. Genuine parts. Guaranteed satisfaction.";
+      } 
+      else if (devicename.charAt(0) === "S" && devicename.charAt(1) === "e" && devicename.charAt(2) === "r" && devicename.charAt(3) === "i") {
         desc.textContent =
-          "The iPhone 5s is a compact smartphone released by Apple in 2013. It features a 4-inch Retina display, a sleek aluminum body, and was the first iPhone to include Touch ID (fingerprint sensor). Powered by the A7 chip with 64-bit architecture, it also introduced the M7 motion coprocessor. The 5s has an 8MP rear camera with dual-tone flash and runs iOS, offering a smooth and reliable experience for basic smartphone tasks.";
-      }
-        else  if (devicename === "iPad2") {
-        desc.textContent =
-          "The iPad 2, released by Apple in 2011, was the second-generation iPad featuring a 9.7-inch display, a thinner and lighter design, and significantly improved performance with the dual-core A5 chip. It introduced front and rear cameras for FaceTime and video recording, and supported iOS multitasking. The iPad 2 was known for its long battery life, smooth performance for its time, and broad app compatibility, making it a popular tablet for years after its release.";
-      }
-       else  if (devicename === "iPad3") {
-        desc.textContent =
-          "The iPad 3, officially called the third-generation iPad, was released by Apple in 2012. It introduced the Retina display with a high-resolution 9.7-inch screen (2048×1536 pixels), offering much sharper visuals. Powered by the dual-core A5X chip with quad-core graphics, it provided better performance for media and apps. It also featured a 5MP rear camera, improved video recording, and optional 4G LTE support, making it a major upgrade in display and connectivity over its predecessor.";
-      }
-       else  if (devicename === "iPad4") {
-        desc.textContent =
-          "The iPad 4, or fourth-generation iPad, was released by Apple in late 2012. It featured a 9.7-inch Retina display, like the iPad 3, but came with a faster A6X chip for improved performance and graphics. It also introduced the Lightning connector, replacing the older 30-pin port. With a 5MP rear camera, FaceTime HD front camera, and support for LTE, the iPad 4 offered a faster, more future-ready experience while maintaining the familiar design.";
-      }
-       else  if (devicename === "Series 8 41MM") {
-        desc.textContent =
-          "The Apple Watch Series 8 (41 mm) is a compact yet powerful 2022 smartwatch featuring a vivid always‑on Retina LTPO OLED display, the efficient S8 dual‑core chip, and comprehensive health sensors like ECG, blood oxygen, and skin temperature. It also includes fall detection, the new crash detection, GPS + cellular options, and offers up to 18 hours of battery life (extendable to about 36 hours with Low Power Mode). Sleek, durable, and packed with advanced safety and wellness features, it delivers the full Apple Watch experience in a more petite size.";
-      }
-       else  if (devicename === "Series 8 45MM") {
-        desc.textContent =
-          "The Apple Watch Series 8 (45 mm) is Apple’s 2022 flagship smartwatch featuring a 45 mm always‑on Retina LTPO OLED display, encased in aluminum or stainless steel. It runs on the S8 dual-core SiP, includes ECG, blood oxygen (SpO₂), skin temperature sensor, and advanced safety features like Fall Detection and new Crash Detection. With GPS + cellular options, 18‑hour battery life (extendable to 36 h via Low Power Mode), and premium build quality, it offers a comprehensive health, fitness, and connectivity experience.";
-      }
-       else  if (devicename === "Series 7 41MM") {
-        desc.textContent =
-          "The Apple Watch Series 7 (41mm) is a sleek and powerful smartwatch with a larger, always-on Retina display that’s nearly 20% bigger than the Series 6. Released in 2021, it features a more durable design with crack-resistant glass, faster charging, and advanced health tools like blood oxygen monitoring, ECG, heart rate tracking, and sleep tracking. It runs on watchOS, supports fitness tracking, notifications, and seamless integration with the iPhone—all in a compact 41mm size.";
+          "Apple Watch is a smart and stylish wearable that keeps you connected, tracks your health, and fits seamlessly into your daily routine. Cracked screen, dead battery, water damage, or speaker issues? We fix it all. Fast and reliable service with quality parts and expert care. Any iPhone, any problem — we’ll make it work like new. Walk in with damage, walk out with a like-new phone!";
       }
     </script>
   </body>
